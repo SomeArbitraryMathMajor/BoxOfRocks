@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ins">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#DBEEFA"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/instructions" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="monospace"
+                android:text="Press the “Next” button to pick a random question that will be selected from the card deck and the answer will always be 0, 1, or 2. If you answered correctly you will advance 1 block, same goes for the 'Rocks' team. If you answer incorrectly you will move back 1 block. First team to advance to block 3 wins! In the case where both sides reach block 3 at the same time, will result in a Sudden Death! The winner will be decided by the next question. Good luck and have fun!"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bor"
+                android:onClick="toGame"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
