@@ -1,2 +1,2 @@
 # BoxOfRocks
-high school project; alternate numerical version of tic tac toe, add to 15 to win. Android app developed on Android Studios, coded using XML and Java.
+high school project; adaptation of the children's game Box of Rocks. Mobile app developed on Android Studios using XML and Java.
